@@ -25,12 +25,15 @@ html {
 .contenav{
  width: 96%;
 max-width: 960px;
-margin: 0 auto;
+
 }
 
 .imgLogo{ 
     max-width: 100%;
     height: auto;
+    justify-content: left;
+    
+    
 }
 
 header nav ul li {
@@ -41,7 +44,10 @@ header nav ul li {
     font-size: 2rem;
     background-image: url(../Imagenes/imgenppalgrande.jpg); 
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;  
+    
+    max-width: 100%;
+    margin: 0 auto; 
 }
 
 .menuHamburguesa{
@@ -179,7 +185,7 @@ text-align: justify;
 
  @media screen and (max-width: 768px){
     
-    .contfacial, .contcap, .contcorp, .Fixed, .pie, .estiloQuienes{ 
+    .Fixed, .pie, .estiloQuienes{ 
     
        grid-template-columns: none;
        justify-content: center;
